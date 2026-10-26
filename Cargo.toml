@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-container"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Container and virtualization support"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-container"
+readme = "README.md"
+keywords = ["container", "docker", "virtualization"]
+categories = ["virtualization"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
