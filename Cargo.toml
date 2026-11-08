@@ -2,10 +2,9 @@
 name = "sigmaos_container"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS container runtime model: lifecycle, namespaces, cgroups, images"
+license = "MIT"
+description = "SigmaOS container component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_container"
 path = "src/lib.rs"
-
-[dependencies]
