@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-container"
-description = "Docker, OCI, container images, and rootless execution"
+description = "Part of SigmaOS architecture: SigmaOS-container"
 version = "0.1.0"
 tier = 3
 
