@@ -7,6 +7,8 @@
 
 #![forbid(unsafe_code)]
 
+pub mod sigmacontainermanager;
+
 use std::fmt;
 /// Errors for `ToolError` operations. Fail-fast: invalid input is rejected.
 #[derive(Debug, Clone, PartialEq, Eq)]
