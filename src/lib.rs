@@ -7,6 +7,9 @@
 
 #![forbid(unsafe_code)]
 
+/// Container manager module.
+pub mod sigmacontainer;
+
 pub mod sigmacontainermanager;
 
 use std::fmt;
